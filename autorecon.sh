@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./recon.sh && sleep 50 && ./recon.sh && sleep 50 && ./recon.sh && sleep 50 && ./recon.sh && sleep 50 && ./recon.sh &&sleep 50 && ./recon.sh
+/root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh &&sleep 50 && /root/./recon.sh
