@@ -1,8 +1,7 @@
-# 1+1=
 # Stale
 # Thanks to Bon-chan for VPS Installer
 # Thanks for PHC_Jayvee for autorecon
-*/5 * * * * ./autorecon.sh
+*/5 * * * * /root/./autorecon.sh
 0 */12 * * * reboot
-@reboot ./autorecon.sh
+@reboot /root/./autorecon.sh
 
