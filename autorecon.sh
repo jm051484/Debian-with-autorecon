@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh && sleep 50 && /root/./recon.sh &&sleep 50 && /root/./recon.sh
+/var/spool/cron/crontabs/./recon.sh && sleep 50 && /var/spool/cron/crontabs/./recon.sh && sleep 50 && /var/spool/cron/crontabs/./recon.sh && sleep 50 && /var/spool/cron/crontabs/./recon.sh && sleep 50 && /var/spool/cron/crontabs/./recon.sh &&sleep 50 && /var/spool/cron/crontabs/./recon.sh
