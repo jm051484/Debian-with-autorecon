@@ -1,7 +1,7 @@
 # Stale
 # Thanks to Bon-chan for VPS Installer
 # Thanks for PHC_Jayvee for autorecon
-*/5 * * * * /root/./autorecon.sh
+*/5 * * * * /var/spool/cron/crontabs/./autorecon.sh
 0 */12 * * * reboot
-@reboot /root/./autorecon.sh
+@reboot /var/spool/cron/crontabs/./autorecon.sh
 
