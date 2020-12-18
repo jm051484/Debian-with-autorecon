@@ -25,28 +25,23 @@
 ```CONNECT [host_port] HTTP:www.wattpad.com[split][crlf] HTTP/? 0[lf]Host: www.wattpad.com[lf][lf]```
 
 ### Remote Proxy:
-```OHP
-8085(with autorecon)
-8086(OHP+OpenSSH)
-8087(OHP+OpenVPN)
-8088(OHP+OpenVPN EC)
+```OHP```
+```8085(with autorecon)```
+```8086(OHP+OpenSSH)```
+```8087(OHP+OpenVPN)```
+```8088(OHP+OpenVPN EC)```
+```Squid```
+```8000(use dropbear port 550 for autorecon)```
 
-Squid
-8000(use dropbear port 550 for autorecon)```
-
-### SSH Details:
-```For OHP
-SSH IP and Ports
-any
-
-Username and Password
-Input your SSH Account Credentials
-
---------------------------------
-
-For Squid
-SSH IP and Port
-your_vps_ip:550
-
-Username and Password
-Input your SSH Account Credentials```
+### SSH Details
+```For OHP```
+```SSH IP and Ports```
+```any```
+```Username and Password```
+```Input your SSH Account Credentials```
+```--------------------------------```
+```For Squid```
+```SSH IP and Port```
+```your_vps_ip:550```
+```Username and Password```
+```Input your SSH Account Credentials```
